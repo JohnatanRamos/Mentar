@@ -446,3 +446,68 @@ footer .gmail .msj {
     min-width: 36%;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  header {
+    height: 40px;
+  }
+
+  header img {
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    align-self: center;
+  }
+
+  .content-video {
+    margin-block-start: 25px;
+    margin-block-end: 0px;
+    grid-template: repeat(4, 28px) / repeat(10, 1fr);
+  }
+
+  .content-video p {
+    margin-block-start: 0px;
+    grid-column: 1/11;
+    white-space: pre;
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .content-video img {
+    height: 95px;
+    width: 210px;
+    grid-column: 2/10;
+    grid-row: 1/4;
+    margin-block-start: 10px;
+  }
+
+  .video {
+    height: 33vh;
+  }
+
+  .oferta h1 {
+    margin: 30px 0px 0px;
+    font-size: 21px;
+    line-height: inherit;
+  }
+
+  .oferta h3 {
+    margin-bottom: 5px;
+    font-size: 17px;
+    white-space: pre;
+  }
+
+  .oferta p {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+
+  .promo {
+    margin-top: 30px;
+    padding: 25px 0px;
+  }
+
+  .promo h3 {
+    font-size: 19px;
+  }
+}
