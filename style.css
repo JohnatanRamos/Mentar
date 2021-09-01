@@ -456,7 +456,7 @@ footer .gmail .msj {
     margin-block-start: 0px;
     grid-column: 1/11;
     white-space: pre;
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 1px;
   }
 
@@ -485,7 +485,7 @@ footer .gmail .msj {
   }
 
   .oferta p {
-    font-size: 10px;
+    font-size: 12px;
     letter-spacing: 1px;
     font-weight: normal;
   }
@@ -505,7 +505,7 @@ footer .gmail .msj {
   }
 
   .learn .modulos {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .learn .modulos .content-modul {
