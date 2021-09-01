@@ -205,7 +205,8 @@ header img {
   font-size: 1.1rem;
   font-weight: bold;
   border-radius: 25px;
-  border-color: 1px solid var(--gris);
+  border-color: var(--gris);
+  border-style: solid;
   cursor: pointer;
 }
 
@@ -278,7 +279,8 @@ header img {
   font-size: 0.8rem;
   font-weight: bold;
   border-radius: 25px;
-  border-color: 1px solid var(--gris);
+  border-color: var(--gris);
+  border-style: solid;
   cursor: pointer;
 }
 
