@@ -504,12 +504,10 @@ footer .gmail .msj {
     font-size: 17px;
   }
 
-  .learn .modulos {
-    font-size: 12px;
-  }
-
   .learn .modulos .content-modul {
-    max-width: 77%;
+    max-width: 70%;
+    font-size: 12px;
+    white-space: pre;
   }
 
   .learn .modulos .nike {
