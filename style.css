@@ -139,14 +139,6 @@ header img {
   color: var(--Verde-claro);
 }
 
-.learn h4 {
-  width: 100%;
-  margin: 50px 0px;
-  text-align: center;
-  font-family: "Lato", sans-serif;
-  color: var(--Verde-claro);
-}
-
 .learn .modulos {
   width: 90%;
   display: flex;
@@ -422,11 +414,6 @@ footer .gmail .msj {
     max-width: 43%;
   }
 
-  .learn .modulos {
-    /* width: 66%;
-    position: initial; */
-  }
-
   .learn .modulos .nike {
     min-width: 30px;
     min-height: 30px;
@@ -447,7 +434,7 @@ footer .gmail .msj {
   }
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 417px) {
   header {
     height: 40px;
   }
@@ -510,5 +497,44 @@ footer .gmail .msj {
 
   .promo h3 {
     font-size: 19px;
+  }
+
+  .learn h3 {
+    margin: 30px 0px 25px;
+    font-size: 17px;
+  }
+
+  .learn .modulos {
+    font-size: 10px;
+  }
+
+  .learn .modulos .content-modul {
+    max-width: 84%;
+  }
+
+  .learn .modulos .nike {
+    min-width: 20px;
+    min-height: 20px;
+    width: 20px;
+    height: 20px;
+  }
+
+  .learn .values h3 {
+    margin: 25px 0px 25px;
+    font-size: 15px;
+  }
+
+  .buy {
+    margin-bottom: 30px;
+  }
+
+  .buy button {
+    width: 140px;
+    height: 40px;
+    font-size: 17px;
+  }
+
+  .beneficios {
+    padding: 20px 0px;
   }
 }
