@@ -541,4 +541,27 @@ footer .gmail .msj {
   .beneficios {
     padding: 20px 0px;
   }
+
+  .cards .item {
+    height: 190px;
+    width: 330px;
+    max-width: 90%;
+  }
+
+  .cards .item p {
+    margin: 7px 20px 20px 20px;
+    font-size: 12px;
+  }
+
+  .cards .item h4 {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 343px) {
+  .learn .modulos .content-modul {
+    max-width: 75%;
+    white-space: normal;
+  }
 }
