@@ -535,6 +535,7 @@ footer .gmail .msj {
   .buy button {
     width: 140px;
     height: 40px;
+    padding: 9px;
     font-size: 17px;
   }
 
@@ -544,7 +545,7 @@ footer .gmail .msj {
 
   .cards .item {
     height: 190px;
-    width: 330px;
+    width: 310px;
     max-width: 90%;
   }
 
@@ -556,6 +557,21 @@ footer .gmail .msj {
   .cards .item h4 {
     margin-top: 15px;
     font-size: 14px;
+  }
+
+  .yes {
+    margin: 30px 0px;
+  }
+
+  .yes button {
+    width: 300px;
+    height: 40px;
+    padding: 9px;
+    font-size: 17px;
+  }
+
+  .yes h4 {
+    font-size: 15px;
   }
 }
 
