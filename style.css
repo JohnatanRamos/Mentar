@@ -21,14 +21,14 @@ button:hover {
 
 header {
   width: 100%;
-  height: 80px;
+  height: 50px;
   display: flex;
   background: var(--Verde-claro);
 }
 
 header img {
-  width: 225px;
-  height: 52px;
+  width: 90px;
+  height: auto;
   margin-left: 34px;
   align-self: center;
 }
@@ -66,6 +66,7 @@ header img {
 }
 
 .video {
+  padding: 25px;
   height: 100vh;
   display: grid;
   grid-template: repeat(2, auto) / repeat(3, 1fr);
@@ -74,7 +75,7 @@ header img {
 .video iframe {
   grid-column: 1/4;
   grid-row: 1/3;
-  width: 100%;
+  width: 90%;
   height: 100%;
   justify-self: center;
 }
@@ -201,7 +202,8 @@ header img {
 
 .buy button {
   width: 165px;
-  height: 50px;
+  height: 40px;
+  padding-top: 1px;
   align-self: center;
   background: var(--Verde-oscuro);
   color: white;
@@ -233,6 +235,7 @@ header img {
 }
 
 .cards .item {
+  width: 460px;
   min-width: 50%;
   max-width: 85%;
   display: flex;
@@ -275,7 +278,8 @@ header img {
 
 .yes button {
   width: 270px;
-  height: 50px;
+  height: 45px;
+  padding-top: 1px;
   align-self: center;
   background: var(--Verde-oscuro);
   color: white;
@@ -298,56 +302,60 @@ footer {
   width: 100%;
   background: var(--gris);
   font-weight: lighter;
-  letter-spacing: 3px;
+  letter-spacing: 1px;
+  color: #fff;
+  font-family: "Lato", sans-serif;
 }
 
 footer .container {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  color: white;
-  font-family: "Lato", sans-serif;
-  overflow: hidden;
+  padding: 35px 0px;
 }
 
-footer .container img {
-  min-width: 20%;
-  max-width: 29%;
-  margin-top: 25px;
-  margin-bottom: 50px;
-}
-
-footer .derechos {
-  width: 100%;
-  margin-top: 100px;
-  display: flex;
-  justify-content: center;
-  text-align: center;
-  padding-bottom: 30px;
-  color: white;
-  font-family: "Lato", sans-serif;
-}
-
-footer .derechos h5 {
-  max-width: 462px;
+footer .container .icons-footer span {
+  width: 20px;
+  height: 20px;
 }
 
 footer .gmail {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 14px;
 }
 
 footer .gmail .msj {
-  display: block;
-  width: 25px;
-  height: 25px;
-  margin-right: 5px;
-  background-image: url(assets/carta.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+}
+
+footer .derechos {
+  width: 300px;
+  text-align: center;
+  padding-bottom: 10px;
+  margin: 0 auto;
+}
+
+footer .derechos p {
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 10px;
+  line-height: 18px;
+  text-align: center;
+}
+
+.footer-container-logo {
+  width: 300px;
+  margin: 10px auto;
+}
+
+.logo-footer {
+  background-image: url(./assets/logo2.png);
+  width: 105px;
+  height: 58px;
+  text-align: center;
+  margin: 0 auto;
+  background-size: 105px 58px;
+  z-index: 10;
 }
 
 .instagram {
@@ -361,8 +369,6 @@ footer .gmail .msj {
 
 .facebook {
   display: block;
-  width: 25px;
-  height: 25px;
   background-image: url(assets/facebook.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -370,8 +376,6 @@ footer .gmail .msj {
 
 .carta {
   display: block;
-  width: 25px;
-  height: 25px;
   background-image: url(assets/avion-de-papel.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -379,8 +383,6 @@ footer .gmail .msj {
 
 .wpp {
   display: block;
-  width: 25px;
-  height: 25px;
   background-image: url(assets/whatsapp.svg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -446,8 +448,6 @@ footer .gmail .msj {
   }
 
   header img {
-    width: 100px;
-    height: 30px;
     margin-left: 20px;
     align-self: center;
   }
