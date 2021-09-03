@@ -478,7 +478,7 @@ footer .derechos p {
   }
 
   .content-video img {
-    height: 110px;
+    height: 112px;
     width: 210px;
     grid-column: 2/10;
     grid-row: 1/4;
@@ -486,7 +486,13 @@ footer .derechos p {
   }
 
   .video {
-    height: 33vh;
+    height: 35vh;
+    margin-top: 20px;
+    padding: initial;
+  }
+
+  .video iframe {
+    width: 100%;
   }
 
   .oferta h1 {
