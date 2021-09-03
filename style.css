@@ -472,7 +472,7 @@ footer .derechos p {
   }
 
   .content-video img {
-    height: 95px;
+    height: 110px;
     width: 210px;
     grid-column: 2/10;
     grid-row: 1/4;
