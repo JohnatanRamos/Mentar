@@ -87,12 +87,12 @@ header img {
 }
 
 .oferta h1 {
-  margin: 90px 0px 15px;
+  margin: 50px 0px 15px;
   color: var(--Verde-oscuro);
   font-weight: 900;
   line-height: 2.2rem;
   font-family: "Lato", sans-serif;
-  font-size: 2.9rem;
+  font-size: 2.2rem;
 }
 
 .oferta h3 {
@@ -101,7 +101,7 @@ header img {
   font-weight: 900;
   font-family: "Lato", sans-serif;
   letter-spacing: 1px;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 
 .oferta p {
@@ -110,15 +110,15 @@ header img {
   font-family: "Lato", sans-serif;
   text-align: unset;
   font-weight: lighter;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   max-width: 45%;
-  font-size: calc(0.4rem + 1vw);
+  font-size: 16px;
 }
 
 .promo {
-  margin-top: 85px;
-  padding-top: 50px;
-  padding-bottom: 50px;
+  margin-top: 70px;
+  padding-top: 35px;
+  padding-bottom: 35px;
   background: var(--Verde-claro);
   color: white;
 }
@@ -129,16 +129,20 @@ header img {
   text-align: center;
   margin: 0 auto;
   font-weight: bold;
-  font-size: 1.8rem;
+  font-size: 1.2rem;
 }
 
 .learn {
   width: 100%;
 }
 
+.learn h3:first-child {
+  font-size: 1rem;
+}
+
 .learn h3 {
   width: 100%;
-  margin: 50px 0px;
+  margin: 40px 0px;
   text-align: center;
   font-family: "Lato", sans-serif;
   color: var(--Verde-claro);
@@ -176,7 +180,8 @@ header img {
   align-self: baseline;
 }
 
-.values {
+.values h3 {
+  font-size: 0.8rem !important;
   width: 100%;
   text-align: center;
   font-family: "Lato", sans-serif;
@@ -201,14 +206,14 @@ header img {
 }
 
 .buy button {
-  width: 165px;
+  width: 160px;
   height: 40px;
   padding-top: 1px;
   align-self: center;
   background: var(--Verde-oscuro);
   color: white;
   font-family: "Lato", sans-serif;
-  font-size: 1.1rem;
+  font-size: 16px;
   font-weight: bold;
   border-radius: 25px;
   border-color: var(--gris);
@@ -222,7 +227,7 @@ header img {
   height: auto;
   display: flex;
   justify-content: center;
-  padding: 40px;
+  padding: 27px;
 }
 
 .cards {
@@ -277,14 +282,14 @@ header img {
 }
 
 .yes button {
-  width: 270px;
-  height: 45px;
+  width: 260px;
+  height: 40px;
   padding-top: 1px;
   align-self: center;
   background: var(--Verde-oscuro);
   color: white;
   font-family: "Lato", sans-serif;
-  font-size: 0.8rem;
+  font-size: 16px;
   font-weight: bold;
   border-radius: 25px;
   border-color: var(--gris);
@@ -296,6 +301,7 @@ header img {
   color: var(--Verde-claro);
   font-family: "Lato", sans-serif;
   font-weight: 600;
+  font-size: 17px;
 }
 
 footer {
