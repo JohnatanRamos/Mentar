@@ -601,3 +601,31 @@ footer .derechos p {
     white-space: normal;
   }
 }
+
+@media only screen and (min-width: 419px) {
+  .content-video img {
+    height: 174px;
+    width: 240px;
+    grid-column: 3/9;
+    min-width: 50%;
+  }
+
+  .content-video p {
+    grid-column: 3/9;
+    margin-block-start: 16px;
+    font-size: 14px;
+    white-space: pre;
+  }
+  .content-video {
+    grid-template: repeat(7, 30px) / repeat(10, 1fr);
+    margin-block-start: 30px;
+    margin-block-end: -19px;
+  }
+}
+
+@media only screen and (min-width: 1110px) {
+  .content-video img {
+    height: 186px;
+    min-width: 46%;
+  }
+}
