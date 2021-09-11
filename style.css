@@ -87,10 +87,10 @@ header img {
 }
 
 .oferta h1 {
-  margin: 50px 0px 15px;
+  margin: 10px 0px 15px;
   color: var(--Verde-oscuro);
   font-weight: 900;
-  line-height: 2.2rem;
+  line-height: 2rem;
   font-family: "Lato", sans-serif;
   font-size: 2.2rem;
 }
@@ -116,7 +116,7 @@ header img {
 }
 
 .promo {
-  margin-top: 70px;
+  margin-top: 50px;
   padding-top: 35px;
   padding-bottom: 35px;
   background: var(--Verde-claro);
@@ -269,7 +269,7 @@ header img {
   margin: 10px 20px 30px 20px;
   color: var(--letra-gris);
   font-weight: lighter;
-  font-size: 0.8rem;
+  font-size: 14px;
 }
 
 .yes {
@@ -360,7 +360,7 @@ footer .derechos p {
 }
 
 .logo-footer {
-  background-image: url(./assets/logo2.png);
+  background-image: url(./assets/Imagen-07.png);
   width: 105px;
   height: 58px;
   text-align: center;
@@ -413,7 +413,7 @@ footer .derechos p {
   }
 
   .oferta h1 {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
   }
 
   .oferta h3 {
@@ -618,7 +618,7 @@ footer .derechos p {
   }
   .content-video {
     grid-template: repeat(7, 30px) / repeat(10, 1fr);
-    margin-block-start: 30px;
+    margin-block-start: 15px;
     margin-block-end: -19px;
   }
 }
