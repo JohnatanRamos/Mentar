@@ -1,8 +1,10 @@
 :root {
-  --Verde-claro: #74c49c;
-  --Verde-oscuro: #63a07f;
+  /* --Verde-claro: #74c49c;
+  --azul-oscuro: #63a07f; */
   --gris: #6d6e70;
   --letra-gris: #808080;
+  --azul-claro: #aadac7;
+  --azul-oscuro: #80998c;
 }
 
 * {
@@ -23,7 +25,7 @@ header {
   width: 100%;
   height: 50px;
   display: flex;
-  background: var(--Verde-claro);
+  background: var(--azul-claro);
 }
 
 header img {
@@ -60,13 +62,13 @@ header img {
   margin-block-start: 8px;
   font-family: "Lato", sans-serif;
   letter-spacing: 2px;
-  color: var(--Verde-claro);
+  color: var(--azul-oscuro);
   text-align: center;
   font-size: calc(0.4rem + 1vw);
 }
 
 .video {
-  padding: 25px;
+  padding: 20px;
   height: 100vh;
   display: grid;
   grid-template: repeat(2, auto) / repeat(3, 1fr);
@@ -87,8 +89,8 @@ header img {
 }
 
 .oferta h1 {
-  margin: 10px 0px 15px;
-  color: var(--Verde-oscuro);
+  margin: 50px 0px 15px;
+  color: var(--azul-oscuro);
   font-weight: 900;
   line-height: 2rem;
   font-family: "Lato", sans-serif;
@@ -97,7 +99,7 @@ header img {
 
 .oferta h3 {
   margin-bottom: 18px;
-  color: var(--Verde-claro);
+  color: var(--azul-oscuro);
   font-weight: 900;
   font-family: "Lato", sans-serif;
   letter-spacing: 1px;
@@ -105,8 +107,8 @@ header img {
 }
 
 .oferta p {
-  margin: 0 auto;
-  color: var(--Verde-claro);
+  margin: 0 auto 50px;
+  color: var(--azul-oscuro);
   font-family: "Lato", sans-serif;
   text-align: unset;
   font-weight: lighter;
@@ -119,8 +121,15 @@ header img {
   margin-top: 50px;
   padding-top: 35px;
   padding-bottom: 35px;
-  background: var(--Verde-claro);
-  color: white;
+  background: var(--azul-claro);
+}
+
+.promo h3:first-child {
+  color: var(--azul-oscuro);
+}
+
+.promo h3:nth-child(2) {
+  color: #efef66e6;
 }
 
 .promo h3 {
@@ -137,15 +146,23 @@ header img {
 }
 
 .learn h3:first-child {
-  font-size: 1rem;
+  font-size: 20px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30px;
+  color: var(--azul-oscuro);
 }
 
 .learn h3 {
   width: 100%;
-  margin: 40px 0px;
+  margin: 40px 0px 6px;
   text-align: center;
   font-family: "Lato", sans-serif;
-  color: var(--Verde-claro);
+  color: var(--azul-claro);
+}
+
+.second-modul {
+  margin-top: 30px !important;
 }
 
 .learn .modulos {
@@ -158,6 +175,7 @@ header img {
   font-family: "Lato", sans-serif;
   color: var(--letra-gris);
   font-size: 0.7rem;
+  margin-top: 50px;
 }
 
 .learn .modulos .content-modul {
@@ -174,10 +192,14 @@ header img {
   width: 25px;
   height: 25px;
   display: block;
-  background-image: url("assets/cheque2.svg");
+  background-image: url(assets-curso/cheque2.svg);
   background-repeat: no-repeat;
   background-size: cover;
   align-self: baseline;
+}
+
+.values h5 {
+  margin-bottom: 25px;
 }
 
 .values h3 {
@@ -188,7 +210,7 @@ header img {
 }
 
 .oficcial {
-  color: var(--Verde-claro);
+  color: var(--azul-claro);
 }
 
 .oficcial b {
@@ -196,7 +218,7 @@ header img {
 }
 
 .lanzamiento {
-  color: var(--Verde-oscuro) !important;
+  color: var(--azul-oscuro) !important;
 }
 
 .buy {
@@ -210,7 +232,7 @@ header img {
   height: 40px;
   padding-top: 1px;
   align-self: center;
-  background: var(--Verde-oscuro);
+  background: var(--azul-oscuro);
   color: white;
   font-family: "Lato", sans-serif;
   font-size: 16px;
@@ -221,13 +243,18 @@ header img {
   cursor: pointer;
 }
 
-.beneficios {
-  background: var(--Verde-oscuro);
+.beneficios,
+.content-course {
+  background: var(--azul-claro);
   width: 100%;
   height: auto;
   display: flex;
   justify-content: center;
   padding: 27px;
+}
+
+.content-course {
+  background: var(--azul-oscuro) !important;
 }
 
 .cards {
@@ -286,7 +313,7 @@ header img {
   height: 40px;
   padding-top: 1px;
   align-self: center;
-  background: var(--Verde-oscuro);
+  background: var(--azul-claro);
   color: white;
   font-family: "Lato", sans-serif;
   font-size: 16px;
@@ -297,11 +324,13 @@ header img {
   cursor: pointer;
 }
 
-.yes h4 {
-  color: var(--Verde-claro);
+.yes h5,
+.values h5 {
+  color: var(--azul-oscuro);
   font-family: "Lato", sans-serif;
-  font-weight: 600;
-  font-size: 17px;
+  font-weight: 100;
+  font-size: 14px;
+  text-align: center;
 }
 
 footer {
@@ -334,7 +363,7 @@ footer .gmail .msj {
   width: 20px;
   height: 20px;
   margin-right: 4px;
-  background-image: url(assets/carta.svg);
+  background-image: url(assets-curso/carta.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -360,7 +389,7 @@ footer .derechos p {
 }
 
 .logo-footer {
-  background-image: url(./assets/Imagen-07.png);
+  background-image: url(assets-curso/Imagen-07.png);
   width: 105px;
   height: 58px;
   text-align: center;
@@ -373,28 +402,28 @@ footer .derechos p {
   display: block;
   width: 25px;
   height: 25px;
-  background-image: url(assets/logotipo-de-instagram.svg);
+  background-image: url(assets-curso/logotipo-de-instagram.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .facebook {
   display: block;
-  background-image: url(assets/facebook.svg);
+  background-image: url(assets-curso/facebook.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .carta {
   display: block;
-  background-image: url(assets/avion-de-papel.svg);
+  background-image: url(assets-curso/avion-de-papel.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .wpp {
   display: block;
-  background-image: url(assets/whatsapp.svg);
+  background-image: url(assets-curso/whatsapp.svg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -409,7 +438,7 @@ footer .derechos p {
 
 @media all and (max-width: 600px) {
   .video {
-    height: 61vh;
+    height: 60vh;
   }
 
   .oferta h1 {
@@ -426,7 +455,8 @@ footer .derechos p {
 
   .promo h3 {
     max-width: 236px;
-    font-size: 1.1rem;
+    font-size: 23px;
+    white-space: pre;
   }
 
   footer .container img {
@@ -437,19 +467,13 @@ footer .derechos p {
     min-width: 30px;
     min-height: 30px;
   }
-}
 
-@media all and (min-width: 735px) {
-  .learn .modulos .content-modul {
-    max-width: 64%;
-    min-width: 50%;
+  .content-video img {
+    min-width: 65% !important;
   }
-}
 
-@media all and (min-width: 915px) {
   .learn .modulos .content-modul {
-    max-width: 64%;
-    min-width: 36%;
+    min-width: 68%;
   }
 }
 
@@ -470,16 +494,17 @@ footer .derechos p {
   }
 
   .content-video p {
-    margin-block-start: 0px;
+    margin-block-start: -8px;
     grid-column: 1/11;
+    grid-row: 2;
     white-space: pre;
     font-size: 12px;
     letter-spacing: 1px;
   }
 
   .content-video img {
-    height: 112px;
-    width: 210px;
+    height: 100px;
+    width: 220px;
     grid-column: 2/10;
     grid-row: 1/4;
     margin-block-start: 10px;
@@ -511,6 +536,7 @@ footer .derechos p {
     font-size: 12px;
     letter-spacing: 1px;
     font-weight: normal;
+    margin-bottom: 30px;
   }
 
   .promo {
@@ -541,7 +567,7 @@ footer .derechos p {
   }
 
   .learn .values h3 {
-    margin: 25px 0px 25px;
+    margin: 25px 0px 6px;
     font-size: 15px;
   }
 
@@ -556,7 +582,8 @@ footer .derechos p {
     font-size: 17px;
   }
 
-  .beneficios {
+  .beneficios,
+  .content-course {
     padding: 20px 0px;
   }
 
@@ -602,30 +629,72 @@ footer .derechos p {
   }
 }
 
-@media only screen and (min-width: 419px) {
+@media only screen and (min-width: 418px) {
+  .content-video {
+    grid-template: repeat(5, 30px) / repeat(10, 1fr);
+    margin-block-start: 15px;
+    margin-block-end: -19px;
+  }
+
   .content-video img {
-    height: 174px;
+    height: 110px;
     width: 240px;
-    grid-column: 3/9;
-    min-width: 50%;
+    grid-column: 1/11;
+    grid-row: 2/5;
+    min-width: 70%;
+    margin-block-start: -0px;
   }
 
   .content-video p {
     grid-column: 3/9;
-    margin-block-start: 16px;
-    font-size: 14px;
+    margin-block-start: 2px;
+    font-size: 16px;
     white-space: pre;
+    grid-row: 2;
   }
+}
+
+@media all and (min-width: 735px) {
+  .learn .modulos .content-modul {
+    max-width: 64%;
+    min-width: 55%;
+  }
+
   .content-video {
-    grid-template: repeat(7, 30px) / repeat(10, 1fr);
-    margin-block-start: 15px;
-    margin-block-end: -19px;
+    grid-template: repeat(5, 30px) / repeat(10, 1fr);
+  }
+
+  .content-video img {
+    height: 130px;
+    min-width: 65%;
+    margin-block-start: -5px;
+  }
+}
+
+@media all and (min-width: 915px) {
+  .learn .modulos .content-modul {
+    max-width: 64%;
+    min-width: 45%;
+  }
+
+  .content-video {
+    grid-template: repeat(5, 30px) / repeat(10, 1fr);
+  }
+
+  .content-video img {
+    height: 145px;
+    min-width: 55%;
+    margin-block-start: -8px;
   }
 }
 
 @media only screen and (min-width: 1110px) {
   .content-video img {
-    height: 186px;
-    min-width: 46%;
+    height: 150px;
+    min-width: 50%;
+  }
+
+  .learn .modulos .content-modul {
+    min-width: 33%;
   }
 }
