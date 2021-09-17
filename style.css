@@ -188,6 +188,16 @@ header img {
   width: 285px;
 }
 
+.content-modul .especific-information {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.content-modul .especific-information p:first-child {
+  white-space: pre;
+}
+
 .learn .modulos .nike {
   width: 25px;
   height: 25px;
@@ -473,7 +483,7 @@ footer .derechos p {
   }
 
   .learn .modulos .content-modul {
-    min-width: 68%;
+    min-width: 80%;
   }
 }
 
@@ -553,7 +563,7 @@ footer .derechos p {
   }
 
   .learn .modulos .content-modul {
-    max-width: 70%;
+    max-width: 80%;
     font-size: 12px;
     white-space: pre;
   }
@@ -566,7 +576,7 @@ footer .derechos p {
   }
 
   .learn .values h3 {
-    margin: 25px 0px 6px;
+    /* margin: 25px 0px 6px; */
     font-size: 15px;
   }
 
@@ -623,7 +633,7 @@ footer .derechos p {
 
 @media only screen and (max-width: 343px) {
   .learn .modulos .content-modul {
-    max-width: 75%;
+    max-width: 90%;
     white-space: normal;
   }
 }
