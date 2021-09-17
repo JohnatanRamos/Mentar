@@ -494,7 +494,7 @@ footer .derechos p {
   }
 
   .content-video p {
-    margin-block-start: -8px;
+    margin-block-start: -20px;
     grid-column: 1/11;
     grid-row: 2;
     white-space: pre;
@@ -503,16 +503,15 @@ footer .derechos p {
   }
 
   .content-video img {
-    height: 100px;
-    width: 220px;
+    height: 90px;
+    width: 235px;
     grid-column: 2/10;
     grid-row: 1/4;
-    margin-block-start: 10px;
+    margin-block-start: 4px;
   }
 
   .video {
     height: 35vh;
-    margin-top: 20px;
     padding: initial;
   }
 
