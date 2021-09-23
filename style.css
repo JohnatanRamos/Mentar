@@ -407,7 +407,7 @@ footer .derechos p {
 
 .footer-container-logo {
   width: 300px;
-  margin: 10px auto;
+  margin: 20px auto;
 }
 
 .logo-footer {
@@ -416,7 +416,8 @@ footer .derechos p {
   height: 58px;
   text-align: center;
   margin: 0 auto;
-  background-size: 100px 58px;
+  background-size: 110px 65px;
+  background-repeat: no-repeat;
   z-index: 10;
 }
 
