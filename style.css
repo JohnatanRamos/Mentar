@@ -416,7 +416,7 @@ footer .derechos p {
   height: 58px;
   text-align: center;
   margin: 0 auto;
-  background-size: 105px 58px;
+  background-size: 100px 58px;
   z-index: 10;
 }
 
@@ -527,7 +527,7 @@ footer .derechos p {
 
   .content-video img {
     height: 90px;
-    width: 235px;
+    width: 250px;
     grid-column: 2/10;
     grid-row: 1/4;
     margin-block-start: 4px;
