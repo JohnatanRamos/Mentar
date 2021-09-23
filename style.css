@@ -528,7 +528,7 @@ footer .derechos p {
   .content-video img {
     height: 90px;
     width: 330px;
-    grid-column: 2/10;
+    grid-column: 1/11;
     grid-row: 1/4;
     margin-block-start: 4px;
   }
